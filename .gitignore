@@ -1,0 +1,17 @@
+/.project
+/Wrench-Lexicon/Debug
+*.tlog
+*.obj
+*.idb
+*.manifest
+*.log
+*.pdb
+*.lastbuildstate
+*.unsuccessfulbuild
+*.ipch
+*.exp
+*.sdf
+*.exe
+*.ilk
+Wrench-Lexicon/test.cpp
+Wrench-Lexicon/test.lua
