@@ -135,7 +135,6 @@
     <ClInclude Include="Wrench_Lua.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="test.cpp" />
     <ClCompile Include="Wrench_Lua.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

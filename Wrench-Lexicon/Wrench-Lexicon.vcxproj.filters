@@ -32,8 +32,5 @@
     <ClCompile Include="Wrench_Lua.cpp">
       <Filter>Source Files\Lexicon_Lua</Filter>
     </ClCompile>
-    <ClCompile Include="test.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>
