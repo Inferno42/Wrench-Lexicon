@@ -75,9 +75,9 @@ void WLua_Instance::DisplayErrors( int stat )
 	{
 		if(ActiveLogging == true)
 		{
-			const char* a = Wrench::str_merge(2, " -- ", lua_tolstring(L, -1, NULL));
-			Wrench::Print((char*)a);
-			Wrench::Printfile((char*)a, Wrench::PLACEMENT_PREFIX, __TIMESTAMP__, false, "lua_error.txt");
+			std::string a = Wrench::str_merge(2, " -- ", lua_tolstring(L, -1, NULL));
+			Wrench::Print(a);
+			Wrench::Printfile(a, Wrench::PLACEMENT_PREFIX, __TIMESTAMP__, false, "lua_error.txt");
 			Wrench::Printfile(" Error occurred. Please see lua_error.txt for more details.", Wrench::PLACEMENT_PREFIX, __TIMESTAMP__, false, "lua_log.txt");
 		}
 		lua_pop(L, 1);
